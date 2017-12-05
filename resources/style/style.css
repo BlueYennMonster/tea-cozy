@@ -32,18 +32,64 @@ nav span {
 	padding: 0px 30px;
 }
 
-.mission {
+.flex {
 	display: flex;
+	flex-direction: column;
 	margin: 0px auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.mission {
 	top: 69px;
 	height: 700px;
 	width: 1200px;
-    justify-content: center;
-    align-items: center;
 	background-image: url('../images/img-mission-background.jpg');
 }
 
 .image-text {
 	background-color: black;
 	width: 100%;
+}
+
+.month {
+	margin: auto;
+	width: 1000px;
+	margin-top: 100px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.item {
+	margin: 0 15px;
+}
+
+.month-img {
+	width: 300px;
+	height: 200px;
+}
+
+.month-txt {
+	margin-top: 10px;
+}
+
+.locations {
+	height: 500px;
+	width: 1200px;
+	background-image: url('../images/img-locations-background.jpg');
+}
+
+.location-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: space-around;
+	background-color: black;
+	width: 300px;
+	margin: 40px;
 }
